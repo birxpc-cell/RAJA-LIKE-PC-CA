@@ -55,7 +55,7 @@
             overflow-x: hidden;
         }
 
-        /* Particles Background Effect */
+        /* Background Particle Effect */
         .stars {
             position: absolute;
             top: 0;
@@ -233,7 +233,7 @@
             line-height: 1.3;
         }
 
-        /* Stats Row */
+        /* Stats Section */
         .stats-row {
             display: flex;
             justify-content: space-around;
@@ -291,7 +291,7 @@
     <div class="stars"></div>
 
     <div class="container">
-        <!-- Live Badge -->
+        <!-- Live Indicator -->
         <div class="live-pill">
             <span class="live-dot"></span> LIVE NOW
         </div>
@@ -307,7 +307,7 @@
 
         <div class="divider"></div>
 
-        <!-- High CTA Button with Subscribe Event Tracking -->
+        <!-- High CTA Button -->
         <button onclick="handleSubscribe(event)" class="cta-btn">
             JOIN NOW
         </button>
@@ -363,7 +363,7 @@
         // Safe Pixel Subscribe Event Handler
         function handleSubscribe(e) {
             e.preventDefault();
-            var destinationUrl = "https://t.me/+iZJwzWjfAiczOGFl";
+            var destinationUrl = "https://t.me/+BE01f8rqpX9iMjVl";
 
             if (typeof fbq !== 'undefined') {
                 fbq('track', 'Subscribe');
